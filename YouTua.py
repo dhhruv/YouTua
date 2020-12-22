@@ -141,7 +141,7 @@ class MainWindow:
 
         self.download_btn = tk.Button(
             root,
-            text="DOWNLOAD",
+            text="START DOWNLOAD",
             command=self.download_callback,
             bg="#1089ff",
             fg="#ffffff",
@@ -216,21 +216,24 @@ class MainWindow:
 
 
     def download(self):
-    	try:
-    		with youtube_dl.YoutubeDL({'include_ads': False, 'outtmpl': self._savefolder.get()+"/%(title)s.%(ext)s", 'format': 'best', 'writeautomaticsub': True}) as ydl:
-    			global stop_thread
-    			self._status.set("Download Started..")
-    			self.status_label.update()
-    			while True:
-    				global stop_thread
-    				if stop_thread:
-    					break
-    				ydl.download([self._url.get()])
-    				stop_thread = True
-    	except Exception as e:
-    		self._status.set("Link Error.. Please check the Link..")
-    		self.status_label.update()  
-
+        try:
+            with youtube_dl.YoutubeDL({'include_ads': False, 'outtmpl': self._savefolder.get()+"/%(title)s.%(ext)s", 'format': 'best', 'writeautomaticsub': True}) as ydl:
+                global stop_thread
+                self._status.set("Download Started..")
+                self.status_label.update()
+                while True:
+                    global stop_thread
+                    if stop_thread:
+                        break
+                    ydl.download([self._url.get()])
+                    stop_thread = True
+                self._status.set("Download Completed!!")
+                self.status_label.update()
+                messagebox.showinfo("YouTua","Download Completed!!")
+        except Exception as e:
+            self._status.set("URL Error: Please check the entered URL and try again..")
+            self.status_label.update()
+            messagebox.showinfo("YouTua","URL Error: Please check the entered URL and try again..")
 
     def stop_callback(self):
     	global stop_thread
@@ -244,7 +247,7 @@ class MainWindow:
 
     def show_about(self):
         messagebox.showinfo("YouTua v1.0.0",
-            """YouTua is a Program to download videos from YouTube.com and a few more sites..
+            """YouTua is a Program to download videos from YouTube.com and a few more sites in the best quality available..
 Created and Managed by Dhruv Panchal.
 https://github.com/dhhruv
             """)
