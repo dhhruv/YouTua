@@ -3,7 +3,7 @@
   <h2 align="center" style="margin-top: -4px !important;">Download Videos in Best Quality Available...</h2>
   <p align="center">
     <a href="https://github.com/dhhruv/YouTua/blob/master/LICENSE">
-      <img src="https://img.shields.io/github/license/dhhruv/YouTua?color=informational">
+      <img src="https://img.shields.io/github/license/dhhruv/YouTua?color=blue">
     </a>
     <a href="https://www.python.org/">
     	<img src="https://img.shields.io/badge/python-v3.8-informational">
