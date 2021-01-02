@@ -1,20 +1,4 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/72680045/103451688-fc129080-4cec-11eb-801d-971c63ca4ba9.png">
-  <h2 align="center" style="margin-top: -4px !important;">Download Videos in Best Quality Available...</h2>
-  <p align="center">
-    <a href="https://github.com/dhhruv/YouTua/blob/master/LICENSE">
-      <img src="https://img.shields.io/github/license/dhhruv/YouTua?color=informational">
-    </a>
-    <a href="https://www.python.org/">
-    	<img src="https://img.shields.io/badge/python-v3.8-informational">
-    </a>
-    <img src="https://img.shields.io/badge/maintainer-dhhruv-informational">
-    <a href="https://github.com/dhhruv/YouTua">
-    	<img src="https://img.shields.io/github/v/release/dhhruv/YouTua">
-    </a>
-    <img src="https://img.shields.io/badge/contributions-welcome-informational">
-  </p>
-</p>
+
 
 # YouTua
 
