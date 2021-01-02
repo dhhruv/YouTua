@@ -10,7 +10,7 @@
     </a>
     <img src="https://img.shields.io/badge/maintainer-dhhruv-informational">
     <a href="https://github.com/dhhruv/YouTua">
-    	<img src="https://img.shields.io/github/v/release/dhhruv/YouTua">
+    	<img src="https://img.shields.io/github/v/release/dhhruv/YouTua?include_prereleases">
     </a>
     <img src="https://img.shields.io/badge/contributions-welcome-informational">
   </p>
