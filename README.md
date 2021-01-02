@@ -21,7 +21,7 @@
 YouTua is a GUI Program to download videos from YouTube.com and a few more sites. It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific. It should work on your Unix box, on Windows or on macOS. It is released to the public domain, which means you can modify it, redistribute it or use it however you like.
 
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/72680045/103451755-cc17bd00-4ced-11eb-9c1f-3cc60e701161.PNG">
+	<img src="https://user-images.githubusercontent.com/72680045/103451856-34b36980-4cef-11eb-9f8d-231d7654f5ca.PNG">
 </p>
 <br>
 
