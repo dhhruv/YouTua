@@ -193,7 +193,7 @@ class MainWindow:
                                 'Please Enter a valid URL to download !!'
                                 )
             return
-        t1 = threading.Thread(target=self.download)
+        t1 = threading.Thread(target=self.download, daemon=True)
         t1.start()
 
     def download(self):
