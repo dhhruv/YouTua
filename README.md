@@ -20,6 +20,11 @@
 
 YouTua is a GUI Program to download videos from YouTube.com and a few more sites. It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific. It should work on your Unix box, on Windows or on macOS. It is released to the public domain, which means you can modify it, redistribute it or use it however you like.
 
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/72680045/103451755-cc17bd00-4ced-11eb-9c1f-3cc60e701161.PNG">
+</p>
+<br>
+
 ## Setup (Windows):
 
 1. Install Python
@@ -41,10 +46,6 @@ venv\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/72680045/103451755-cc17bd00-4ced-11eb-9c1f-3cc60e701161.PNG">
-</p>
-<br>
 
 ## How To Use !
 1. Select the OUTPUT Folder by manually adding path or selecting the FOLDER using the SELECT FOLDER Button.<br>
@@ -53,6 +54,10 @@ pip install -r requirements.txt
 3. By Clicking START DOWNLOAD, YouTua will download the video in the best available quality (MAX=720p) and subtitles will be download if available.<br>
 Note:- This is a Pre-release so STOP Button is under implementation.<br>
 P.S. Wait until the video is downloaded.
+
+## Important Note:
+
+-	**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. Read the [LICENSE](https://github.com/dhhruv/Compresssio-GUI/blob/master/LICENSE) for more information.**
 
 ## Credits:
 - [youtube-dl](http://ytdl-org.github.io/youtube-dl/download.html)
