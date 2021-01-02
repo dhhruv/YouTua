@@ -33,18 +33,12 @@ YouTua is a GUI Program to download videos from YouTube.com and a few more sites
 git clone https://github.com/dhhruv/YouTua.git
 ```
 
-3. Install, create and activate virtual environment.
-For instance we create a virtual environment named 'venv'.
+3. Run YouTua
 ```
-pip install virtualenv
-python -m virtualenv venv
-venv\Scripts\activate.bat
+python YouTua.py
 ```
-
-4. Install dependencies
-```
-pip install -r requirements.txt
-```
+OR<br> 
+**You can download and run the [YouTua.exe](https://github.com/dhhruv/YouTua/releases) from the latest release for easy to use experience.**
 
 
 ## How To Use !
