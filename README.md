@@ -25,7 +25,7 @@ YouTua is a GUI Program to download videos from YouTube.com and a few more sites
 </p>
 <br>
 
-## Setup (Windows):
+## Setup:
 
 1. Install Python
 2. Clone this repository
