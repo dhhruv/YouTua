@@ -37,8 +37,8 @@ git clone https://github.com/dhhruv/YouTua.git
 ```
 python YouTua.py
 ```
-OR<br> 
-**You can download and run the [YouTua.exe](https://github.com/dhhruv/YouTua/releases) from the latest release for easy to use experience.**
+
+  **You can download and run the [YouTua.exe](https://github.com/dhhruv/YouTua/releases) from the latest release for easy to use experience.**
 
 
 ## How To Use !
