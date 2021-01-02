@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import youtube_dl
+from youtuatools.YoutubeDL import YoutubeDL
 import os
 import os.path
 import sys
@@ -198,7 +198,7 @@ class MainWindow:
 
     def download(self):
         try:
-            with youtube_dl.YoutubeDL({
+            with YoutubeDL({
                 'include_ads': False,
                 'outtmpl': self._savefolder.get() + '/%(title)s.%(ext)s'
                     ,
@@ -229,7 +229,7 @@ Note:- This is a Pre-release so STOP Button is under implementation.
 P.S. Wait until the video is downloaded.""")
 
     def show_about(self):
-        messagebox.showinfo('YouTua v1.1.0',
+        messagebox.showinfo('YouTua v1.2.0',
                             """YouTua is a Program to download videos/playlists from YouTube.com and a few more sites in the best quality available..
 It is released to the public domain, which means you can modify it, redistribute it or use it however you like.
 Managed by Dhruv Panchal.
