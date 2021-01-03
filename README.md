@@ -11,7 +11,7 @@
     <a href="https://github.com/dhhruv/YouTua">
     	<img src="https://img.shields.io/github/v/release/dhhruv/YouTua?include_prereleases">
     </a>
-    <img src="https://img.shields.io/github/downloads/dhhruv/YouTua/total?color=informational">
+    <img src="https://img.shields.io/github/downloads/dhhruv/YouTua/total?color=important">
   </p>
 </p>
 
