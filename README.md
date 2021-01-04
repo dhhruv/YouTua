@@ -50,7 +50,6 @@ P.S. Wait until the video is downloaded.
 
 ## Important Note:
 
--	**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. Read the [LICENSE](https://github.com/dhhruv/YouTua/blob/master/LICENSE) for more information.**
 - **YouTua is based on the original works of youtube-dl so it does not infringe or encourage the infringement of any copyrighted works and does not violate Section 1201 of the DMCA because it does not “circumvent” any technical protection measures on the videos from the supported sites by youtube-dl.**
 
 ## Credits:
