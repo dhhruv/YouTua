@@ -17,7 +17,7 @@
 
 # YouTua
 
-YouTua is a GUI Program to download videos from YouTube.com and a few more sites. It does not infringe or encourage the infringement of any copyrighted works as per [the information](https://github.com/github/dmca/blob/master/2020/11/2020-11-16-RIAA-reversal-effletter.pdf). It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific. It should work on your Unix box, on Windows or on macOS. It is released to the public domain, which means you can modify it, redistribute it or use it however you like.<br>
+YouTua is a GUI Program to download videos from YouTube.com and a few more sites. It does not infringe or encourage the infringement of any copyrighted works as per [the information](https://github.com/github/dmca/blob/master/2020/11/2020-11-16-RIAA-reversal-effletter.pdf). It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific. It should work on your Unix box, on Windows or on macOS.<br>
 
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/72680045/103451856-34b36980-4cef-11eb-9f8d-231d7654f5ca.PNG">
