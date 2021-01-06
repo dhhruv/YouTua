@@ -28,6 +28,9 @@ class MainWindow:
         self._savefolder = tk.StringVar()
         self._savefolder.set(os.getcwd())
         self._status = tk.StringVar()
+        self.advs = tk.BooleanVar()
+        self.vid_format = tk.StringVar()
+        self.vid_format.set('select')
         self._status.set('---')
         self.stopFlag = False
 
@@ -132,6 +135,74 @@ class MainWindow:
             sticky=tk.W + tk.E + tk.N + tk.S,
             )
 
+        self.adv_button = tk.Checkbutton(root,text="Maximum Resolution Settings:",
+            variable=self.advs, 
+            onvalue=True, 
+            offvalue=False,
+            command=self.check_settings,
+            bg='#eeeeee',
+            anchor=tk.W
+            )
+
+        self.adv_button.grid(
+            padx=12,
+            pady=(8, 0),
+            ipadx=0,
+            ipady=1,
+            row=5,
+            column=0,
+            columnspan=4,
+            sticky=tk.W + tk.E + tk.N + tk.S,
+            )
+
+        self.format_label = tk.Label(root,
+                text='Format:', bg='#eeeeee', state='disabled',
+                anchor=tk.W)
+        self.format_label.grid(
+            padx=12,
+            pady=(8, 0),
+            ipadx=0,
+            ipady=1,
+            row=6,
+            column=0,
+            columnspan=2,
+            sticky=tk.W + tk.E + tk.N + tk.S,
+            )
+
+        self.mp4_button = tk.Radiobutton(root,
+        	text="mp4", variable=self.vid_format,
+        	value='mp4',bg='#eeeeee',state='disabled',
+            anchor=tk.W
+            )
+
+        self.mp4_button.grid(
+        	padx=12,
+            pady=(8, 0),
+            ipadx=0,
+            ipady=1,
+            row=6,
+            column=2,
+            columnspan=1,
+            sticky=tk.W + tk.E + tk.N + tk.S,
+        	)
+
+        self.mkv_button = tk.Radiobutton(root,
+        	text="mkv", variable=self.vid_format,
+        	value='mkv',bg='#eeeeee',state='disabled',
+            anchor=tk.W
+            )
+
+        self.mkv_button.grid(
+        	padx=12,
+            pady=(8, 0),
+            ipadx=0,
+            ipady=1,
+            row=6,
+            column=3,
+            columnspan=1,
+            sticky=tk.W + tk.E + tk.N + tk.S,
+        	)
+
         self.download_btn = tk.Button(
             root,
             text='START DOWNLOAD',
@@ -146,7 +217,7 @@ class MainWindow:
             pady=8,
             ipadx=24,
             ipady=6,
-            row=5,
+            row=7,
             column=0,
             columnspan=4,
             sticky=tk.W + tk.E + tk.N + tk.S,
@@ -166,11 +237,23 @@ class MainWindow:
             pady=(0, 12),
             ipadx=0,
             ipady=1,
-            row=6,
+            row=8,
             column=0,
             columnspan=4,
             sticky=tk.W + tk.E + tk.N + tk.S,
             )
+
+    def check_settings(self):
+    	if self.advs.get():
+    		self.vid_format.set('mp4')
+    		self.format_label['state'] = 'normal'
+    		self.mp4_button['state'] = 'normal'
+    		self.mkv_button['state'] = 'normal'
+    	else:
+    		self.format_label['state'] = 'disabled'
+    		self.mp4_button['state'] = 'disabled'
+    		self.mkv_button['state'] = 'disabled'
+    		self.vid_format.set('select')
 
     def select_folder_callback(self):
         try:
@@ -198,19 +281,48 @@ class MainWindow:
 
     def download(self):
         try:
-            with YoutubeDL({
-                'include_ads': False,
-                'outtmpl': self._savefolder.get() + '/%(title)s.%(ext)s'
-                    ,
-                'format': 'best',
-                'writeautomaticsub': True,
-                }) as ydl:
-                self._status.set('Download Started..')
-                self.status_label.update()
-                ydl.download([self._url.get()])
-                self._status.set('Download Completed!!')
-                self.status_label.update()
-                messagebox.showinfo('YouTua', 'Download Completed!!')
+        	if str(self.vid_format.get())=='mp4':
+	            with YoutubeDL({
+	                'include_ads': False,
+	                'outtmpl': self._savefolder.get() + '/%(title)s.%(ext)s'
+	                    ,
+	                'format': 'bestvideo[ext!=webm]‌​+bestaudio[ext!=webm]‌​/best[ext!=webm]',
+	                'writeautomaticsub': True,
+	                }) as ydl:
+	                self._status.set('Download Started..')
+	                self.status_label.update()
+	                ydl.download([self._url.get()])
+	                self._status.set('Download Completed!!')
+	                self.status_label.update()
+	                messagebox.showinfo('YouTua', 'Download Completed!!')
+	        elif str(self.vid_format.get())=='mkv':
+	            with YoutubeDL({
+	                'include_ads': False,
+	                'outtmpl': self._savefolder.get() + '/%(title)s.%(ext)s'
+	                    ,
+	                'format': 'bestvideo+bestaudio/best',
+	                'writeautomaticsub': True,
+	                }) as ydl:
+	                self._status.set('Download Started..')
+	                self.status_label.update()
+	                ydl.download([self._url.get()])
+	                self._status.set('Download Completed!!')
+	                self.status_label.update()
+	                messagebox.showinfo('YouTua', 'Download Completed!!')
+	        else:
+	            with YoutubeDL({
+	                'include_ads': False,
+	                'outtmpl': self._savefolder.get() + '/%(title)s.%(ext)s'
+	                    ,
+	                'format': 'best',
+	                'writeautomaticsub': True,
+	                }) as ydl:
+	                self._status.set('Download Started..')
+	                self.status_label.update()
+	                ydl.download([self._url.get()])
+	                self._status.set('Download Completed!!')
+	                self.status_label.update()
+	                messagebox.showinfo('YouTua', 'Download Completed!!')
         except Exception as e:
             self._status.set('URL Error: Please check the entered URL and try again !!'
                              )
@@ -229,7 +341,7 @@ Note:- This is a Pre-release so STOP Button is under implementation.
 P.S. Wait until the video is downloaded.""")
 
     def show_about(self):
-        messagebox.showinfo('YouTua v1.2.0',
+        messagebox.showinfo('YouTua v1.3.0',
                             """YouTua is a Program to download videos/playlists from YouTube.com and a few more sites in the best quality available..
 It is released to the public domain, which means you can modify it, redistribute it or use it however you like.
 Managed by Dhruv Panchal.
