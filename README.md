@@ -47,8 +47,8 @@ python YouTua.py
 3. For Downloading video with RESOLUTION<=720p proceed normally to download.
 4. For Downloading video with MAXIMUM RESOLUTION (=>720p) available according the video link, check the MAX RES Settings and choose the output format (.mp4 or .mkv) as per preferences. 
 5. To download the available subtitles check the subtitles button.
-6. Click START DOWNLOAD and enjoy.
-Note:- This is a Pre-release so STOP Button is under implementation.
+6. Click START DOWNLOAD and enjoy.<br>
+Note:- This is a Pre-release so STOP Button is under implementation.<br>
 P.S. Wait until the video is downloaded.
 
 ## Important Note:
