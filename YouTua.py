@@ -330,7 +330,7 @@ class MainWindow:
                     'include_ads': False,
                     'outtmpl': self._savefolder.get()
                         + '/%(title)s.%(ext)s',
-                    'format': 'bestvideo+bestaudio/best',
+                    'format': 'bestvideo[ext!=webm]+bestaudio[ext!=m4a]/best[ext!=m4a]',
                     'writeautomaticsub': self._subtitles.get(),
                     'ffmpeg_location': ffmpeg_location,
                     }) as ydl:
