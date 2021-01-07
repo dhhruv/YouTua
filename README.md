@@ -37,6 +37,8 @@ git clone https://github.com/dhhruv/YouTua.git
 python YouTua.py
 ```
 
+  **You've to download [ffmpeg](https://ffmpeg.org/download.html) to run it manually.**<br>
+  **OR**<br>
   **You can download and run the [YouTua.exe](https://github.com/dhhruv/YouTua/releases) from the latest release for easy to use experience.**
 
 
