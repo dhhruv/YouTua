@@ -41,11 +41,14 @@ python YouTua.py
 
 
 ## How To Use !
-1. Select the OUTPUT Folder by manually adding path or selecting the FOLDER using the SELECT FOLDER Button.<br>
+1. Select the OUTPUT Folder by manually adding path or selecting the FOLDER using the SELECT FOLDER Button.
 (By Default the OUTPUT FOLDER is set to the current directory.)
 2. Enter the Link of Youtube Video you want to download.
-3. By Clicking START DOWNLOAD, YouTua will download the video in the best available quality (MAX=720p) and subtitles will be download if available.<br>
-Note:- This is a Pre-release so STOP Button is under implementation.<br>
+3. For Downloading video with RESOLUTION<=720p proceed normally to download.
+4. For Downloading video with MAXIMUM RESOLUTION (=>720p) available according the video link, check the MAX RES Settings and choose the output format (.mp4 or .mkv) as per preferences. 
+5. To download the available subtitles check the subtitles button.
+6. Click START DOWNLOAD and enjoy.
+Note:- This is a Pre-release so STOP Button is under implementation.
 P.S. Wait until the video is downloaded.
 
 ## Important Note:
