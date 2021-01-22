@@ -17,7 +17,7 @@
 
 # YouTua
 
-YouTua is a GUI Program to download videos from various supported sites. It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific. It should work on your Unix box, on Windows or on macOS.<br>
+YouTua is a GUI Program to download videos from various [supported sites](https://github.com/dhhruv/YouTua/blob/master/Supported%20Sites.txt). It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific. It should work on your Unix box, on Windows or on macOS.<br>
 
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/72680045/103865422-32378200-50ea-11eb-9d30-113c98dceb47.png">
