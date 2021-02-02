@@ -14,6 +14,9 @@
     <img src="https://img.shields.io/github/downloads/dhhruv/YouTua/total?color=important">
   </p>
 </p>
+<p align="center">
+	<img src="	http://ForTheBadge.com/images/badges/made-with-python.svg">
+</p>
 
 # YouTua
 
