@@ -15,7 +15,7 @@
   </p>
 </p>
 <p align="center">
-	<img src="	http://ForTheBadge.com/images/badges/made-with-python.svg">
+	<img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
 </p>
 
 # YouTua
