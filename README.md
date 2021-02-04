@@ -21,6 +21,9 @@
 	<a href="https://dev.to/dhhruv/youtua-download-videos-playlists-in-your-preferred-format-and-quality-4mon">
     	<img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white">
     </a>
+  <a href="https://dhhruv.medium.com/youtua-b32edf77e64d">
+      <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white">
+    </a>
 </p>
 
 # YouTua
