@@ -25,10 +25,10 @@
 
 # YouTua
 
-YouTua is a GUI Program to download videos from various [supported sites](https://github.com/dhhruv/YouTua/blob/master/Supported%20Sites.txt). It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific. It should work on your Unix box, on Windows or on macOS.<br>
+YouTua is a GUI Program to download videos/playlists from various [supported sites](https://github.com/dhhruv/YouTua/blob/master/Supported%20Sites.txt). It requires the Python interpreter, version 2.6, 2.7, or 3.2+, and it is not platform specific. It should work on your Unix box, on Windows or on macOS.<br>
 
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/72680045/103865422-32378200-50ea-11eb-9d30-113c98dceb47.png">
+	<img src="https://user-images.githubusercontent.com/72680045/106863834-15916880-66ef-11eb-9178-22f23c2693a4.PNG">
 </p>
 <br>
 
@@ -51,15 +51,11 @@ python YouTua.py
 
 
 ## How To Use !
-1. Select the OUTPUT Folder by manually adding path or selecting the FOLDER using the SELECT FOLDER Button.
+1. Select the OUTPUT Folder by manually adding path or selecting the FOLDER using the SELECT FOLDER Button.<br>
 (By Default the OUTPUT FOLDER is set to the current directory.)
 2. Enter the Link of Video you want to download.
-3. For Downloading video with RESOLUTION<=720p proceed normally to download.
-4. For Downloading video with MAXIMUM RESOLUTION (=>720p) available according the video link, check the MAX RES Settings and choose the output format (.mp4 or .mkv) as per preferences. 
+3. Select the Format to download the video (mp4/mkv/webm).
+4. Select the Quality in which you want to download the video (144p to 2160p).<br>
+(If your preferred Quality is not available then the lower best quality will be downloaded.) 
 5. To download the available subtitles check the subtitles button.
-6. Click START DOWNLOAD and enjoy.<br>
-Note:- This is a Pre-release so STOP Button is under implementation.<br>
-P.S. Wait until the video is downloaded.
-
-## Credits:
-- [youtube-dl](http://ytdl-org.github.io/youtube-dl/download.html)
+6. Click START DOWNLOAD and enjoy.
