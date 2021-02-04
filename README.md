@@ -62,4 +62,4 @@ python YouTua.py
 
 **One of the best features of YouTua is that you can Resume your download if it was interrupted. To resume your interrupted download, apply the same preferences of Output Folder, Format and Quality and Done. Enjoy !!**
 
-<p align='center'>Made with ❤ by Dhruv Panchal</p>
+<p align='center'><b>Made with ❤ by Dhruv Panchal</b></p>
