@@ -59,3 +59,5 @@ python YouTua.py
 (If your preferred Quality is not available then the lower best quality will be downloaded.) 
 5. To download the available subtitles check the subtitles button.
 6. Click START DOWNLOAD and enjoy.
+
+**One of the best features of YouTua is that you can Resume your download if it was interrupted. To resume your interrupted download, apply the same preferences of Output Folder, Format and Quality and Done. Enjoy !!**
