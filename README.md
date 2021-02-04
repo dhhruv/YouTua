@@ -50,7 +50,7 @@ python YouTua.py
 
   **You've to download [ffmpeg](https://ffmpeg.org/download.html) to run it manually.**<br>
   **OR**<br>
-  **You can download and run the [YouTua.exe](https://github.com/dhhruv/YouTua/releases) from the latest release for easy to use experience.**
+  **You can download and run the [YouTua.exe](https://github.com/dhhruv/YouTua/releases/download/2.0.0/YouTua.exe) from the latest release for easy to use experience.**
 
 
 ## How To Use !
