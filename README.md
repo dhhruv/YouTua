@@ -18,7 +18,7 @@
 	<img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
 </p>
 <p align="center">   
-	<a href="https://dev.to/dhhruv/youtua-download-videos-playlists-in-your-preferred-format-and-quality-4mon">
+	<a href="https://dev.to/dhhruv/youtua-download-any-videos-instantly-m3f">
     	<img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white">
     </a>
   <a href="https://dhhruv.medium.com/youtua-b32edf77e64d">
