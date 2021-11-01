@@ -49,4 +49,4 @@ print('Do not close this program')
 for package in package_q: #sending module names to the setup_a funtion
     setup(package)
 print('Installation finished')
-subprocess.run('python main.py') #to run the main.py file
+subprocess.run('python YouTua.py') #to run the main.py file
