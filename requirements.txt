@@ -1,0 +1,3 @@
+crypto
+pyxattr
+youtube_dl
