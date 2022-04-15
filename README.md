@@ -43,10 +43,11 @@ YouTua is a GUI Program to download videos/playlists from various [supported sit
 git clone https://github.com/dhhruv/YouTua.git
 ```
 
-3. Run YouTua
+3. Run setup.py
 ```
-python YouTua.py
+python setup.py
 ```
+This will install required packages and run `YouTua.py`
 
   **You've to download [ffmpeg](https://ffmpeg.org/download.html) to run it manually.**<br>
   **OR**<br>
